@@ -406,7 +406,7 @@ a.m-btn, button.m-btn {
   height: auto;
   padding: 130px 0; }
   .two-block .column {
-    width: 45%; }
+    width: 48%; }
     .two-block .column .img {
       width: 100%; }
       .two-block .column .img img {
@@ -424,6 +424,9 @@ a.m-btn, button.m-btn {
           -webkit-text-stroke: 1px #00D9F5;
           font-size: 96px;
           margin-right: 20px; }
+
+h2.h2-nowrap {
+  white-space: nowrap; }
 
 .team-box {
   display: -webkit-box;
@@ -835,6 +838,14 @@ ul li {
       font-size: 20px;
       text-align: center; }
 
+.container {
+  width: 90%;
+  max-width: 1120px;
+  padding: 0; }
+
+.container-fluid {
+  padding: 0; }
+
 .bg-color-dark {
   background-color: #003328; }
   .bg-color-dark .container {
@@ -1012,6 +1023,40 @@ ul li {
 .text-w-number__link {
   margin-left: 50px; }
 
+.center-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  width: 90%;
+  max-width: 768px;
+  margin: auto; }
+  .center-text-block h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87); }
+  .center-text-block p {
+    text-align: center; }
+
+.bg-poligon {
+  background-image: url("../img/poligon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 80px;
+  max-width: 768px;
+  min-height: 800px; }
+
+.bg-img {
+  background-image: url("../img/bg-poli.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center; }
+
 @media (max-width: 1200px) {
   h1, .caption-center, h2.big, .bg-color-dark h2 {
     font-size: 32px;
@@ -1152,10 +1197,16 @@ ul li {
   p {
     font-size: 16px; }
 
-  .map p {
-    font-size: 16px;
-    width: 90%;
-    margin: auto; }
+  .center-text-block {
+    flex-direction: column;
+    padding: 60px; }
+
+  .bg-poligon p {
+    max-width: 350px; }
+
+  a.m-btn, button.m-btn {
+    height: 50px;
+    font-size: 14px; }
 
   h4 {
     font-size: 16px; }
