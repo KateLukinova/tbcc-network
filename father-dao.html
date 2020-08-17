@@ -33,22 +33,22 @@
                 </div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="help-center.html">
                             Help Center
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="father-dao.html">
                             Father Dao
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="engine.html">
                             Engine
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="about.html">
                             About
                         </a>
                     </li>
@@ -177,11 +177,24 @@
         <section class="bg-color">
             <div class="center-text-block">
                 <h2>How much can I borrow?</h2>
-                <p>Enter your collateral type and the amount of it to see how much UTBC you can get</p>
+                <p class="p-amount">Enter your collateral type and the amount of it to see how much UTBC you can get</p>
                 <div class="input-box-amount">
-                    <label for="input-wallet"></label>
-                    <input type="text">
+                    <div class="amount-label">Collateral type</div>
+                    <div class="amount-input">
+                        <img src="img/utbc-coin.svg" alt="">
+                        UTBC
+                    </div>
                 </div>
+                <div class="input-box-amount">
+                    <div class="amount-label">Collateral amount</div>
+                    <input type="number" value="0" class="amount-input">
+                </div>
+                <p class="p-amount mb-0 mt-3">you can get</p>
+                <div class="amount-calculate">
+                    <img src="img/utbc-coin.svg" alt="">
+                    <span>000</span>
+                </div>
+                <p class="p-amount">if you borrow UTBC now</p>
             </div>
         </section>
 
@@ -217,19 +230,19 @@
         </section>
     </div>
 
-    <footer class="container-fluid">
+<footer class="container-fluid">
     <div class="content">
         <div class="footer-nav">
             <div class="footer-nav__column">
                 <h5>Company</h5>
                 <a href="#">Blog</a>
-                <a href="#">About</a>
-                <a href="#">Brand assets</a>
+                <a href="about.html">About</a>
+                <a href="brand-assets.html">Brand assets</a>
             </div>
             <div class="footer-nav__column">
                 <h5>Services</h5>
-                <a href="#">Father Dao</a>
-                <a href="#">Engine</a>
+                <a href="father-dao.html">Father Dao</a>
+                <a href="engine.html">Engine</a>
                 <a href="#">UTBC</a>
             </div>
 
